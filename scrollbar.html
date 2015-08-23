@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="perfect-scrollbar.js"></script>
+    <script type="text/javascript" src="perfect-scrollbar.jquery.js"></script>
+   <link rel="stylesheet" type="text/css" href="perfect-scrollbar.min.css"/>
+   <style>
+   .container{
+     height: 400px;
+     width: 600px;
+     position: relative;
+     overflow: hidden;
+
+     padding: 0px;
+
+   }
+
+   .content{
+     background: url("http://veuxjideo.com/wp-content/uploads/2013/06/CLOUD-FINAL-FANTASY-7-FF7_VEUXJIDEO.jpg") no-repeat;
+     height: 1600px;
+     width: 1200px;
+   }
+   </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+
+    </div>
+  </div>
+  <script>
+  jQuery(document).ready(function($){
+    $('.container').perfectScrollbar();
+  });
+
+
+  </script>
+</body>
+</html>
